@@ -1,6 +1,6 @@
 const collections = {
   queensland: {
-    title: "Queensland multicultural photography competition — landscape",
+    title: "2026 Queensland Multicultural Photography & Story Awards — landscape category",
     files: ["images/queensland-competition/award-landscape.jpg"]
   },
   uqgcaa: {
@@ -41,7 +41,7 @@ async function loadProject(article) {
     const cover = article.querySelector(".cover");
     const image = cover.querySelector("img");
     image.src = loaded[0];
-    image.alt = "Landscape photograph in the Queensland multicultural photography competition";
+    image.alt = "Sunrise over the city skyline with two people at Mount Coot-tha Lookout";
     image.style.display = "block";
     cover.hidden = false;
     cover.addEventListener("click", () => openViewer(key, 0));
